@@ -134,3 +134,14 @@ for (let i = 1; i < numbers.length; i++) {
 }
 
 console.log("Smallest number is", smallest);
+
+
+// guessing game
+let guessNumber ;
+let randomNumber = Math.floor(Math.random() * 10) + 1;
+
+while (guessNumber !== randomNumber) {
+    console.log = ("Wrong! Try again");
+}
+
+console.log("Congratulations! You guessed the correct number");
